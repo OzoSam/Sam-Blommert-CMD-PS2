@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+
+
+
+<body>
+	<header>
+		<nav class="navbar">
+			<!--Ik heb gevraagd aan deepseek hoe ik een logo klikbaar maak, en heb hiervan de code gekopieerd en hiergeplakt-->
+			<a href="1 index.html" class="logo">
+				<img src="../Afbeeldingen/logo.png" alt="Logo van Choukoud Gym">
+			  </a>
+
+	<!--Ik heb zelf het navigatie formaat gevraagd, enkel ik heb voor CSS gevraagd of ChatGPT voor mij een opzet wilt maken-->
+		  <ul class="nav-links">
+			<li><a href="2 Over Ons.html">OVER ONS</a></li>
+			<li><a href="3-1 Personal Training.html">PERSONAL TRAINING</a></li>
+			<li><a href="4 Life Goals.html">LIFE GOALS</a></li>
+			<li><a href="5 Reserveren.html">RESERVEREN</a></li>
+			<li><a href="6 Informatie.html">INFORMATIE</a></li>
+			<li><a href="7 Contact.html">CONTACT</a></li>
+		  </ul>
+	
+		  <a href="8-1 Inschrijven.html" class="inschrijven">INSCHRIJVEN</a>
+		</nav>
+	  </header>
+
+	  <div class="Contact-banner">
+		<img src="../Afbeeldingen/Contact-Banner.png" alt="logo">
+		<div class="Contact-banner-tekst">
+			<h1>CONTACT</h1>
+	</div>
+</div>
+
+
+
+
+
+
+
+<!--Ik heb gevraagd aan deepseek om "Maak een HTML en CSS code (los van elkaar) net links Bezoek ons :
+daaronder contactgegevens + nummer. 
+
+Dan rechts daarvan de tijden, dus
+MAANDAG - DONDERDAG
+11:30 - 14:30, 18:00 - 22:30
+
+VRIJDAG - ZATERDAG
+11:30 - 14:30, 18:00 - 22:30
+
+ZONDAG
+11:00 - 14:00
+
+en dan daarnaast het contact formulier,
+
+
+Ik heb dit aangepast naar hoe ik het wilde en dat is hieronder uitgekomen
+-->
+
+
+<div class="contactpagina-container">
+	<div class="left-column">
+		<div class="contact-section">
+			<h1 class="contact-headers1">BEZOEK ONS :</h1>
+				<p class="contact-paragraaf">Van Ostedestraat 110</p>
+				<p class="contact-paragraaf">2526 GE Den Haag</p>
+				<p class="contact-paragraaf">Zuid Holland</p>
+		</div>
+
+		<div class="contact-section2">
+			<h1 class="contact-headers1">CONTACT GEGEVENS :</h1>
+				<p class="contact-paragraaf">+ 31612345678</p>
+		</div>
+	</div>
+
+	<div class="middle-column">
+		<div class="opening-hours">
+			<h1 class="contact-headers1">MAANDAG - DONDERDAG</h2>
+			<p class="contact-paragraaf">11:30 - 14:30, 18:00 - 22:30</p>
+
+			<h1 class="contact-headers1">VRIJDAG - ZATERDAG</h2>
+			<p class="contact-paragraaf">11:30 - 14:30, 18:00 - 22:30</p>
+
+			<h1 class="contact-headers1">ZONDAG</h2>
+			<p class="contact-paragraaf">11:00 - 14:00</p>
+		</div>
+	</div>
+
+
+
+
+	<div class="right-column">
+		<div class="Contact-formulier">
+			<h1 class="Contact-formulier-h1">CONTACT FORMULIER</h1>
+			<form action="9-Confirmatie.html" method="post">
+				<label class="Contact-formulier-label" for="naam">NAAM</label>
+				<input class="Contact-formulier-input-tekst" type="text" id="naam" placeholder="Volledige Naam">
+
+				<label class="Contact-formulier-label" for="leeftijd">LEEFTIJD</label>
+				<input class="Contact-formulier-input-nummer" type="number" id="leeftijd" placeholder="Leeftijd">
+
+				<label class="Contact-formulier-label" for="email">EMAIL</label>
+				<input class="Contact-formulier-input-email" type="email" id="email" placeholder="Email">
+
+				<label class="Contact-formulier-label" for="bericht">JE BERICHT</label>
+				<textarea class="Contact-formulier-input-tekst" type="text" placeholder="Je Bericht"></textarea>
+
+				<button class="Contact-formulier-button" type="submit">VERSTUUR</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="socials">
+	<h1>VOLG ONS OP INSTAGRAM, FACEBOOK & TIKTOK!</h1>
+</div>
+	
+	<!-- Ik heb gevraagd aan chatgpt om een footer template te maken en dit heb ik aangepast naar mijn benodigdheden -->
+	<footer class="footer">
+		<div class="footer-left">
+		  <img src="../Afbeeldingen\logo.png" alt="Logo" class="logo">
+	
+		  <div class="visit-us">
+			<h3 class="Footer-Header">BEZOEK ONS :</h3>
+			<p class="Footer-Normale-Tekst">- Van Ostedestraat 110</p>
+			<p class="Footer-Normale-Tekst">- 2526 Ge Den Haag</p>
+			<p class="Footer-Normale-Tekst">- Zuid Holland</p>
+		  </div>
+	
+		  <div class="contact-info">
+			<h3 class="Footer-Header">CONTACTGEGEVENS :</h3>
+			<p class="Footer-Normale-Tekst">+ 31612345678</p>
+		  </div>
+		</div>
+	
+		<div class="footer-center">
+		  <ul class="days">
+			<li class="Dagen">MAANDAG - DONDERDAG</li>
+			<li class="Tijden">11:30-14:30, 18:00 - 22:30</li>
+			<br>
+			<br>
+			<li class="Dagen">VRIJDAG - ZATERDAG</li>
+			<li class="Tijden">11:30-14:30, 18:00 - 22:30</li>
+			<br>
+			<br>
+			<li class="Dagen">ZONDAG</li>
+			<li class="Tijden">11:00-14:00</li>
+		  </ul>
+		</div>
+	
+		<div class="footer-right">
+		  <iframe 
+			src="https://www.google.com/maps?q=Van+Ostadestraat+110,+2526+GE+Den+Haag&output=embed" 
+			style="border:0;" 
+			allowfullscreen="" 
+			loading="lazy">
+		  </iframe>
+		</div>
+	  </footer>
+</body>
+
+</html>
